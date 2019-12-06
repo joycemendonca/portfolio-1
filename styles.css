@@ -52,8 +52,8 @@ header a{
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
   justify-content: space-between;
 }
 
@@ -63,7 +63,7 @@ header a{
 
 .images img {
   width: 100%;
-  height: 200px;
+  height: 400px;
 }
 
 .pre-footer{
@@ -80,7 +80,13 @@ header a{
   padding: 20px;
   width: 33%;
   box-sizing: border-box;
- 
+
+}
+
+.pre-footer-edit img{
+  border-radius: 60%;
+  width: 98px;
+  height: 92px;
 }
 
 footer{
@@ -89,6 +95,40 @@ footer{
   margin-bottom: 30px;
 }
 
-nav{
-  text-align: center;
+.nav{
+  border: 2px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.nav button{
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+
+
+}
+
+.nav button:hover{
+  background-color: gray;
+  opacity: 0.5;
+  
+
+}
+
+.nav button:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.nav button:last-child{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+.nav .active{
+  background-color: blueviolet;
 }
